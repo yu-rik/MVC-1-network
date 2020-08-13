@@ -56,15 +56,87 @@
 		7ABDF38F24E5CD4400668661 /* MVC-1-network */ = {
 			isa = PBXGroup;
 			children = (
-				7ABDF39024E5CD4400668661 /* AppDelegate.swift */,
-				7ABDF39224E5CD4400668661 /* SceneDelegate.swift */,
-				7ABDF39424E5CD4400668661 /* ViewController.swift */,
-				7ABDF39624E5CD4400668661 /* Main.storyboard */,
-				7ABDF39924E5CD4500668661 /* Assets.xcassets */,
-				7ABDF39B24E5CD4500668661 /* LaunchScreen.storyboard */,
-				7ABDF39E24E5CD4500668661 /* Info.plist */,
+				7ABDF3A724E5CE9700668661 /* Application */,
+				7ABDF3A824E5CECF00668661 /* Comments */,
+				7ABDF3AC24E5CFF700668661 /* Supporting */,
 			);
 			path = "MVC-1-network";
+			sourceTree = "<group>";
+		};
+		7ABDF3A424E5CE6800668661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ABDF3A524E5CE7700668661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF39624E5CD4400668661 /* Main.storyboard */,
+				7ABDF39B24E5CD4500668661 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ABDF3A624E5CE8000668661 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF39024E5CD4400668661 /* AppDelegate.swift */,
+				7ABDF39224E5CD4400668661 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ABDF3A724E5CE9700668661 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF3A424E5CE6800668661 /* Model */,
+				7ABDF3A524E5CE7700668661 /* View */,
+				7ABDF3A624E5CE8000668661 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7ABDF3A824E5CECF00668661 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF3AB24E5CF0800668661 /* Model */,
+				7ABDF3AA24E5CEED00668661 /* View */,
+				7ABDF3A924E5CEDF00668661 /* Controller */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		7ABDF3A924E5CEDF00668661 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF39424E5CD4400668661 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ABDF3AA24E5CEED00668661 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ABDF3AB24E5CF0800668661 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ABDF3AC24E5CFF700668661 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDF39924E5CD4500668661 /* Assets.xcassets */,
+				7ABDF39E24E5CD4500668661 /* Info.plist */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 754JYM9F2Z;
-				INFOPLIST_FILE = "MVC-1-network/Info.plist";
+				INFOPLIST_FILE = "MVC-1-network/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 754JYM9F2Z;
-				INFOPLIST_FILE = "MVC-1-network/Info.plist";
+				INFOPLIST_FILE = "MVC-1-network/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
