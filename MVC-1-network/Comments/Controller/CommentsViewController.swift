@@ -10,7 +10,7 @@ import UIKit
 
 class CommentsViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView! 
+    @IBOutlet weak var tableViewOutlet: UITableView!
 
 //    override func viewDidLoad() {
 //        super.viewDidLoad()
@@ -29,11 +29,13 @@ extension CommentsViewController: UITableViewDelegate{
 
 extension CommentsViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        //создание ячейки
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        return cell
     }
 }
 

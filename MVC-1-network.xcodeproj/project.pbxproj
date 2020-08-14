@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A78851724E6905100250C10 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78851624E6905100250C10 /* CommentCell.swift */; };
+		7A78851924E6938000250C10 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78851824E6938000250C10 /* Comment.swift */; };
 		7ABDF39124E5CD4400668661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF39024E5CD4400668661 /* AppDelegate.swift */; };
 		7ABDF39324E5CD4400668661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF39224E5CD4400668661 /* SceneDelegate.swift */; };
 		7ABDF39524E5CD4400668661 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF39424E5CD4400668661 /* CommentsViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A78851624E6905100250C10 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		7A78851824E6938000250C10 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		7ABDF38D24E5CD4400668661 /* MVC-1-network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-1-network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABDF39024E5CD4400668661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ABDF39224E5CD4400668661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				7ABDF39624E5CD4400668661 /* Comments.storyboard */,
+				7A78851624E6905100250C10 /* CommentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 		7ABDF3AB24E5CF0800668661 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7A78851824E6938000250C10 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A78851924E6938000250C10 /* Comment.swift in Sources */,
 				7ABDF39524E5CD4400668661 /* CommentsViewController.swift in Sources */,
 				7ABDF39124E5CD4400668661 /* AppDelegate.swift in Sources */,
 				7ABDF39324E5CD4400668661 /* SceneDelegate.swift in Sources */,
+				7A78851724E6905100250C10 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
