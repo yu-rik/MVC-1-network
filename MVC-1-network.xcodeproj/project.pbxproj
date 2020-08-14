@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7A78851724E6905100250C10 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78851624E6905100250C10 /* CommentCell.swift */; };
 		7A78851924E6938000250C10 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78851824E6938000250C10 /* Comment.swift */; };
+		7A78851C24E6AD9700250C10 /* NetworkSservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78851B24E6AD9700250C10 /* NetworkSservice.swift */; };
+		7A78851F24E6BE8D00250C10 /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78851E24E6BE8D00250C10 /* CommentNetworkService.swift */; };
+		7A78852124E6BFB200250C10 /* GetCommentRespobse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78852024E6BFB200250C10 /* GetCommentRespobse.swift */; };
 		7ABDF39124E5CD4400668661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF39024E5CD4400668661 /* AppDelegate.swift */; };
 		7ABDF39324E5CD4400668661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF39224E5CD4400668661 /* SceneDelegate.swift */; };
 		7ABDF39524E5CD4400668661 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF39424E5CD4400668661 /* CommentsViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		7A78851624E6905100250C10 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		7A78851824E6938000250C10 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		7A78851B24E6AD9700250C10 /* NetworkSservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSservice.swift; sourceTree = "<group>"; };
+		7A78851E24E6BE8D00250C10 /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
+		7A78852024E6BFB200250C10 /* GetCommentRespobse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentRespobse.swift; sourceTree = "<group>"; };
 		7ABDF38D24E5CD4400668661 /* MVC-1-network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-1-network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABDF39024E5CD4400668661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ABDF39224E5CD4400668661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A78851A24E6AD6D00250C10 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				7A78851B24E6AD9700250C10 /* NetworkSservice.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		7A78851D24E6BE0A00250C10 /* CommentNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7A78851E24E6BE8D00250C10 /* CommentNetworkService.swift */,
+			);
+			path = CommentNetwork;
+			sourceTree = "<group>";
+		};
 		7ABDF38424E5CD4400668661 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7ABDF3A724E5CE9700668661 /* Application */,
+				7A78851A24E6AD6D00250C10 /* NetworkService */,
 				7ABDF3A824E5CECF00668661 /* Comments */,
 				7ABDF3AC24E5CFF700668661 /* Supporting */,
 			);
@@ -107,6 +130,7 @@
 				7ABDF3AB24E5CF0800668661 /* Model */,
 				7ABDF3AA24E5CEED00668661 /* View */,
 				7ABDF3A924E5CEDF00668661 /* Controller */,
+				7A78851D24E6BE0A00250C10 /* CommentNetwork */,
 			);
 			path = Comments;
 			sourceTree = "<group>";
@@ -132,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				7A78851824E6938000250C10 /* Comment.swift */,
+				7A78852024E6BFB200250C10 /* GetCommentRespobse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -217,10 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A78851924E6938000250C10 /* Comment.swift in Sources */,
+				7A78852124E6BFB200250C10 /* GetCommentRespobse.swift in Sources */,
 				7ABDF39524E5CD4400668661 /* CommentsViewController.swift in Sources */,
 				7ABDF39124E5CD4400668661 /* AppDelegate.swift in Sources */,
 				7ABDF39324E5CD4400668661 /* SceneDelegate.swift in Sources */,
+				7A78851C24E6AD9700250C10 /* NetworkSservice.swift in Sources */,
 				7A78851724E6905100250C10 /* CommentCell.swift in Sources */,
+				7A78851F24E6BE8D00250C10 /* CommentNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

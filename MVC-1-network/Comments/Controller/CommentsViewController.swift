@@ -12,16 +12,10 @@ class CommentsViewController: UIViewController {
 
     @IBOutlet weak var tableViewOutlet: UITableView!
 
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//
-//       // tableView.delegate = (self as! UITableViewDelegate)
-//       // tableView.dataSource = self as? UITableViewDataSource
-//    }
-    
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
 }
-
+}
 
 extension CommentsViewController: UITableViewDelegate{
     
